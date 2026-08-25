@@ -10,7 +10,7 @@ from sql_db import SQLDatabase
 from langchain_core.messages import SystemMessage
 from langchain_core.tools import tool
 
-llm = ChatCrusoe(model="moonshotai/Kimi-K2.6")
+llm = ChatCrusoe(model="zai/GLM-5.2")
 
 # Get the database, store it locally
 

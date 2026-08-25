@@ -10,7 +10,7 @@ from sql_db import SQLDatabase
 from langchain_core.messages import SystemMessage
 from langchain_core.tools import tool
 
-llm = ChatCrusoe(model="moonshotai/Kimi-K2.6")
+llm = ChatCrusoe(model="zai/GLM-5.2")
 
 # database is from:
 # url = "https://storage.googleapis.com/benchmarks-artifacts/chinook/Chinook.db"
