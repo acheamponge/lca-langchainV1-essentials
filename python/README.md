@@ -36,14 +36,14 @@ Make a copy of example.env
 cp example.env .env
 ```
 
-Insert API keys directly into .env file, [OpenAI](https://openai.com/index/openai-api/) (required) and [LangSmith](#getting-started-with-langsmith) (optional)
+Insert API keys directly into .env file, [Crusoe](https://console.crusoecloud.com/) (required) and [LangSmith](#getting-started-with-langsmith) (optional)
 
 ```bash
-# Add OpenAI API key
-OPENAI_API_KEY=your_openai_api_key_here
-# The course is written with OpenAI models, but you can choose others if you prefer. 
-# Be sure to add the key and modify the code to call your preferred model
-#ANTHROPIC_API_KEY=your_anthropic_api_key_here_if_you_prefer
+# Add Crusoe API key
+CRUSOE_API_KEY=your_crusoe_api_key_here
+# This fork runs on Crusoe-hosted open models via langchain-crusoe, but you
+# can choose others if you prefer. Be sure to add the key and modify the code
+# to call your preferred model
 
 # Optional API key for LangSmith tracing
 LANGSMITH_API_KEY=your_langsmith_api_key_here
