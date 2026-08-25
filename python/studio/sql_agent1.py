@@ -5,12 +5,12 @@ import re
 
 import requests
 from langchain.agents import create_agent
-from langchain.chat_models import init_chat_model
+from langchain_crusoe import ChatCrusoe
 from sql_db import SQLDatabase
 from langchain_core.messages import SystemMessage
 from langchain_core.tools import tool
 
-llm = init_chat_model("openai:gpt-5")
+llm = ChatCrusoe(model="zai/GLM-5.2")
 
 # Get the database, store it locally
 
